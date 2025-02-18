@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rive Animation</title>
+    <script src="https://unpkg.com/@rive-app/canvas"></script>
+  </head>
+  <body>
+    <canvas id="riveCanvas"></canvas>
+
+    <script>
+      const r = new rive.Rive({
+        src: "animation.riv",
+        canvas: document.getElementById("riveCanvas"),
+        autoplay: true,
+      });
+    </script>
+  </body>
+</html>
