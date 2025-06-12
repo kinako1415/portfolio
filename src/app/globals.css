@@ -1,10 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --foreground: #000000;
   --background: #ffffff;
+  --gray-800: #1f2937;
+  --gray-100: #ffffff;
+  --primary-color: #ff1355;
+  --text-color: #111111;
+  --green-accent: #1fe765;
 }
 
 /* @media (prefers-color-scheme: dark) {
