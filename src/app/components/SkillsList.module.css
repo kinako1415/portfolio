@@ -1,0 +1,27 @@
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: #111111;
+  font-size: 20px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.skillItem {
+  line-height: 116%;
+}
+
+@media (max-width: 768px) {
+  .skillsList {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillsList {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.tomatoIcon {
+  width: 121px;
+  height: 121px;
+}
+
+.divider {
+  background-color: #ff1355;
+  height: 3px;
+  width: 72px;
+}
+
+.scrollBadge {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content;
+  place-items: start;
+}
+
+.starShape {
+  grid-area: 1 / 1;
+  position: relative;
+  width: 128.85px;
+  height: 128.85px;
+}
+
+.starShapeInner {
+  position: absolute;
+  inset: 3.31%;
+}
+
+.scrollText {
+  grid-area: 1 / 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24.74px;
+  color: #ff1355;
+  margin-left: 30.92px;
+  margin-top: 37.11px;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.11;
+}
+
+.scrollArrow {
+  grid-area: 1 / 1;
+  display: flex;
+  height: 0;
+  align-items: center;
+  justify-content: center;
+  margin-left: 64.58px;
+  margin-top: 74.79px;
+}
+
+.scrollArrowInner {
+  transform: rotate(90deg);
+  position: relative;
+  width: 17.18px;
+  height: 0;
+}
