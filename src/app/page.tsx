@@ -10,6 +10,7 @@ export default function Home() {
           style={{
             maxWidth: "1200px",
             margin: "0 auto",
+            padding: "24px",
             display: "flex",
             justifyContent: "flex-end",
           }}

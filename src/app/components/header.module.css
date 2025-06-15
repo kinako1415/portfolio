@@ -2,6 +2,7 @@
   background-color: #ffffff;
   width: 100%;
   padding: 16px 0;
+  height: auto;
 }
 
 .headerContainer {
@@ -9,7 +10,9 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .logoArea {
