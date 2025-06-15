@@ -8,7 +8,6 @@ export default function Home() {
       <main>
         <section
           style={{
-            padding: "40px 20px",
             maxWidth: "1200px",
             margin: "0 auto",
             display: "flex",

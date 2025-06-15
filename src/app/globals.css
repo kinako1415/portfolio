@@ -31,4 +31,5 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
+  margin: 0 24px;
 }

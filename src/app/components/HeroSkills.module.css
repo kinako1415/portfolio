@@ -29,8 +29,8 @@
 .starShape {
   grid-area: 1 / 1;
   position: relative;
-  width: 128.85px;
-  height: 128.85px;
+  width: 128px;
+  height: 128px;
 }
 
 .starShapeInner {
