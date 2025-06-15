@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function NotFound() {
   return (
     <div
@@ -15,7 +17,7 @@ export default function NotFound() {
         404 - ページが見つかりません
       </h1>
       <p>お探しのページは存在しないか、削除された可能性があります。</p>
-      <a
+      <Link
         href="/"
         style={{
           marginTop: "1.5rem",
@@ -24,10 +26,11 @@ export default function NotFound() {
           color: "white",
           borderRadius: "0.5rem",
           textDecoration: "none",
+          display: "inline-block",
         }}
       >
         ホームに戻る
-      </a>
+      </Link>
     </div>
   );
 }
