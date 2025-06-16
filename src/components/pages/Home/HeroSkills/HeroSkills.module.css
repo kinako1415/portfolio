@@ -5,6 +5,9 @@
   align-items: flex-end;
   justify-content: center;
   position: relative;
+  width: fit-content;
+  margin-left: auto; /* 右寄せのために追加 */
+  top: 0;
 }
 
 .tomatoIcon {

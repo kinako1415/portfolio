@@ -1,6 +1,6 @@
 import Header from "../components/layout/Header";
-import HeroSkills from "../components/page/HeroSkills";
-import HeroTitle from "../components/page/HeroTitle";
+import HeroSkills from "../components/pages/Home/HeroSkills";
+import HeroTitle from "../components/pages/Home/HeroTitle";
 
 export default function Home() {
   return (
@@ -9,24 +9,17 @@ export default function Home() {
       <main>
         <section
           style={{
-            maxWidth: "1200px",
-            margin: "0 auto",
             padding: "24px",
+            marginTop: "96px",
             position: "relative",
+            height: "80vh",
+            display: "flex",
+            flexDirection: "column",
           }}
         >
           <HeroTitle />
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "flex-end",
-              position: "relative",
-              minHeight: "200px",
-            }}
-          >
-            <div style={{ alignSelf: "flex-end" }}>
-              <HeroSkills />
-            </div>
+          <div style={{ alignSelf: "flex-end", marginTop: "48px" }}>
+            <HeroSkills />
           </div>
         </section>
       </main>

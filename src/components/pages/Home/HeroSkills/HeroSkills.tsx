@@ -1,5 +1,5 @@
 import styles from "./HeroSkills.module.css";
-import SkillsList from "./SkillsList";
+import SkillsList from "../../../common/SkillsList";
 import Image from "next/image";
 
 export default function HeroSkills() {
