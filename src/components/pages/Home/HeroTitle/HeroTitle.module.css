@@ -6,24 +6,24 @@
   height: 80vh;
   left: 0;
   right: 0;
-  overflow: hidden; /* コンテナからはみ出る要素を隠す */
+  overflow: hidden;
 }
 
 .titleImage {
   position: absolute;
   height: auto;
   max-width: 891px;
-  left: 0; /* 左寄せ */
-  margin-left: 20px; /* 左端に少し余白を持たせる */
+  left: 0;
+  margin-left: 20px;
 }
 
 .kirakira {
   position: absolute;
-  max-width: 1200px;
+  max-width: 900px;
   bottom: 56px;
   height: auto;
   z-index: -1;
-  left: 50%; /* 水平方向の中央配置 */
-  transform: translateX(-50%); /* 要素の半分だけ左に移動して完全に中央に */
-  width: 100%; /* 幅を100%に設定して、レスポンシブに */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }

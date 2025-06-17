@@ -7,7 +7,7 @@ export default function HeroTitle() {
       <Image
         src="/assets/tomato_kirakira.svg"
         alt="キラキラエフェクト"
-        width={961}
+        width={861}
         height={484}
         className={styles.kirakira}
       />

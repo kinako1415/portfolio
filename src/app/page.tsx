@@ -18,7 +18,7 @@ export default function Home() {
           }}
         >
           <HeroTitle />
-          <div style={{ alignSelf: "flex-end", marginTop: "48px" }}>
+          <div style={{ alignSelf: "flex-end" }}>
             <HeroSkills />
           </div>
         </section>
