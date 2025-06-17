@@ -14,7 +14,7 @@ export default function HeroTitle() {
       <Image
         src="/assets/tomato_title.svg"
         alt="TOMATO Portfolio"
-        width={800}
+        width={891}
         height={280}
         className={styles.titleImage}
         priority
