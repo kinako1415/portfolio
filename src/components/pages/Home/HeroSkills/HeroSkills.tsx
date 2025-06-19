@@ -1,8 +1,22 @@
+"use client";
 import styles from "./HeroSkills.module.css";
 import SkillsList from "../../../common/SkillsList";
 import Image from "next/image";
+import { gsap } from "gsap";
+import { useEffect, useRef } from "react";
 
 export default function HeroSkills() {
+  const scrollBadgeRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (scrollBadgeRef.current) {
+      gsap.to(scrollBadgeRef.current, {
+        duration: 2,
+        x: 200,
+        rotation: 360,
+      });
+    }
+  }, []);
   return (
     <div className={styles.container}>
       <Image
@@ -14,7 +28,7 @@ export default function HeroSkills() {
       />
       <div className={styles.divider}></div>
       <SkillsList />
-      <div className={styles.scrollBadge}>
+      <div className={styles.scrollBadge} ref={scrollBadgeRef}>
         <div className={styles.starShape}>
           <div className={styles.starShapeInner}>
             <svg fill="none" viewBox="0 0 121 121" width="100%" height="100%">
