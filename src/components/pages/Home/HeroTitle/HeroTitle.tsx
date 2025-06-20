@@ -5,6 +5,14 @@ export default function HeroTitle() {
   return (
     <div className={styles.titleContainer}>
       <Image
+        src="/assets/wave_path.svg"
+        alt="背景の波線"
+        width={1486}
+        height={565}
+        className={styles.wavePath}
+        priority={false}
+      />
+      <Image
         src="/assets/tomato_kirakira.svg"
         alt="キラキラエフェクト"
         width={861}
