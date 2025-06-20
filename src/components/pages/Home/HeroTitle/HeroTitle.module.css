@@ -19,12 +19,12 @@
 
 .kirakira {
   position: absolute;
-  max-width: 900px;
-  bottom: 56px;
+  max-width: 1100px;
+  bottom: 0px;
   height: auto;
   z-index: 1;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-52%);
   width: 100%;
 }
 

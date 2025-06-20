@@ -12,7 +12,7 @@ export default function Home() {
             padding: "24px",
             marginTop: "96px",
             position: "relative",
-            height: "80vh",
+            height: "84vh",
             display: "flex",
             flexDirection: "column",
           }}
