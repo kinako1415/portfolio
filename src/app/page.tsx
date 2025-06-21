@@ -1,6 +1,6 @@
-import Header from "../components/layout/Header";
-import HeroSkills from "../components/pages/Home/HeroSkills";
-import HeroTitle from "../components/pages/Home/HeroTitle";
+import Header from "../components/layout/Header/Header";
+import HeroSkills from "../components/pages/Home/HeroSkills/HeroSkills";
+import HeroTitle from "../components/pages/Home/HeroTitle/HeroTitle";
 
 export default function Home() {
   return (

@@ -1,8 +1,8 @@
 "use client";
 import styles from "./HeroSkills.module.css";
-import SkillsList from "../../../common/SkillsList";
+import SkillsList from "../../../common/SkillsList/SkillsList";
 import Image from "next/image";
-import RotatingBadge from "../../../animation";
+import RotatingBadge from "../../../animation/RotatingBadge";
 
 export default function HeroSkills() {
   return (
